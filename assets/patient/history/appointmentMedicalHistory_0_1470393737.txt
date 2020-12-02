@@ -1,0 +1,31 @@
+<div class="item" ng-repeat="hstaf_data in hstaf_data">
+                            <div class="createprocedure_step1_buttom_slider"> <img src="<?php echo base_url();?>assets/images/createprocedure_step1_buttom_slider_img1.png" />
+                              <div class="createprocedure_step1_buttom_slider1">
+                                <h1>{{hstaf_data.staff_name}}</h1>
+                                <span>{{hstaf_data.other_info}}</span> </div>
+                              <div class="createprocedure_step1_delete_slider1"> <i class="fa fa-trash-o"></i> </div>
+                            </div>
+                          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="item" ng-repeat="hstaf_data12 in hstaf_data">
+                            <div class="createprocedure_step1_buttom_slider"> <img src="<?php echo base_url();?>assets/images/createprocedure_step1_buttom_slider_img1.png" />
+                              <div class="createprocedure_step1_buttom_slider1">
+                                <h1>{{hstaf_data12.staff_name}}</h1>
+                                <span>{{hstaf_data12.other_info}}</span> </div>
+                              <div class="createprocedure_step1_delete_slider1"> <i class="fa fa-trash-o"></i> </div>
+                            </div>
+                          </div>
